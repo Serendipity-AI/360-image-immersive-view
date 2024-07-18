@@ -8,7 +8,7 @@ For more detailed information, refer to the [full guide](https://www.notion.so/C
 - Integration with Vision Pro's 3D capabilities
 - Ability to create Immersive Views from 360 images either in your XCode assets or loaded from remote URLs
 - Simple implementation using SwiftUI and RealityKit
-- 
+
 ## Example Screenshot
 <img width="1388" alt="Screenshot 2024-07-18 at 15 18 46" src="https://github.com/user-attachments/assets/032e21d4-5c18-422d-b6b1-3b8a263ac66a">
 
