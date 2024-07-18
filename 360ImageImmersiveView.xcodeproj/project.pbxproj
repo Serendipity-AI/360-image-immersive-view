@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867A9FA12C48151C00F68B61 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 867A9FA02C48151C00F68B61 /* RealityKitContent */; };
+		867A9FA32C48151C00F68B61 /* _360ImageImmersiveViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FA22C48151C00F68B61 /* _360ImageImmersiveViewApp.swift */; };
+		867A9FA52C48151C00F68B61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FA42C48151C00F68B61 /* ContentView.swift */; };
+		867A9FA72C48151D00F68B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867A9FA62C48151D00F68B61 /* Assets.xcassets */; };
+		867A9FAA2C48151D00F68B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867A9FA92C48151D00F68B61 /* Preview Assets.xcassets */; };
+		867A9FB52C48151D00F68B61 /* _60ImageImmersiveViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FB42C48151D00F68B61 /* _60ImageImmersiveViewTests.swift */; };
+		867A9FBF2C48159B00F68B61 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FBE2C48159B00F68B61 /* ImageUtils.swift */; };
+		867A9FC12C4815C000F68B61 /* ImageImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FC02C4815C000F68B61 /* ImageImmersiveView.swift */; };
+		867A9FC32C481A8000F68B61 /* ImageFromURLImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A9FC22C481A8000F68B61 /* ImageFromURLImmersiveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		867A9FB12C48151D00F68B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867A9F932C48151C00F68B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867A9F9A2C48151C00F68B61;
+			remoteInfo = 360ImageImmersiveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		867A9F9B2C48151C00F68B61 /* 360ImageImmersiveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360ImageImmersiveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867A9F9F2C48151C00F68B61 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		867A9FA22C48151C00F68B61 /* _360ImageImmersiveViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _360ImageImmersiveViewApp.swift; sourceTree = "<group>"; };
+		867A9FA42C48151C00F68B61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		867A9FA62C48151D00F68B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		867A9FA92C48151D00F68B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		867A9FAB2C48151D00F68B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867A9FB02C48151D00F68B61 /* 360ImageImmersiveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 360ImageImmersiveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867A9FB42C48151D00F68B61 /* _60ImageImmersiveViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _60ImageImmersiveViewTests.swift; sourceTree = "<group>"; };
+		867A9FBE2C48159B00F68B61 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		867A9FC02C4815C000F68B61 /* ImageImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImmersiveView.swift; sourceTree = "<group>"; };
+		867A9FC22C481A8000F68B61 /* ImageFromURLImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURLImmersiveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867A9F982C48151C00F68B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867A9FA12C48151C00F68B61 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867A9FAD2C48151D00F68B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867A9F922C48151C00F68B61 = {
+			isa = PBXGroup;
+			children = (
+				867A9F9D2C48151C00F68B61 /* 360ImageImmersiveView */,
+				867A9F9E2C48151C00F68B61 /* Packages */,
+				867A9FB32C48151D00F68B61 /* 360ImageImmersiveViewTests */,
+				867A9F9C2C48151C00F68B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867A9F9C2C48151C00F68B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867A9F9B2C48151C00F68B61 /* 360ImageImmersiveView.app */,
+				867A9FB02C48151D00F68B61 /* 360ImageImmersiveViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867A9F9D2C48151C00F68B61 /* 360ImageImmersiveView */ = {
+			isa = PBXGroup;
+			children = (
+				867A9FA22C48151C00F68B61 /* _360ImageImmersiveViewApp.swift */,
+				867A9FC02C4815C000F68B61 /* ImageImmersiveView.swift */,
+				867A9FC22C481A8000F68B61 /* ImageFromURLImmersiveView.swift */,
+				867A9FA42C48151C00F68B61 /* ContentView.swift */,
+				867A9FBE2C48159B00F68B61 /* ImageUtils.swift */,
+				867A9FA62C48151D00F68B61 /* Assets.xcassets */,
+				867A9FAB2C48151D00F68B61 /* Info.plist */,
+				867A9FA82C48151D00F68B61 /* Preview Content */,
+			);
+			path = 360ImageImmersiveView;
+			sourceTree = "<group>";
+		};
+		867A9F9E2C48151C00F68B61 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				867A9F9F2C48151C00F68B61 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		867A9FA82C48151D00F68B61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				867A9FA92C48151D00F68B61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		867A9FB32C48151D00F68B61 /* 360ImageImmersiveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				867A9FB42C48151D00F68B61 /* _60ImageImmersiveViewTests.swift */,
+			);
+			path = 360ImageImmersiveViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867A9F9A2C48151C00F68B61 /* 360ImageImmersiveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867A9FB82C48151D00F68B61 /* Build configuration list for PBXNativeTarget "360ImageImmersiveView" */;
+			buildPhases = (
+				867A9F972C48151C00F68B61 /* Sources */,
+				867A9F982C48151C00F68B61 /* Frameworks */,
+				867A9F992C48151C00F68B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360ImageImmersiveView;
+			packageProductDependencies = (
+				867A9FA02C48151C00F68B61 /* RealityKitContent */,
+			);
+			productName = 360ImageImmersiveView;
+			productReference = 867A9F9B2C48151C00F68B61 /* 360ImageImmersiveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		867A9FAF2C48151D00F68B61 /* 360ImageImmersiveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867A9FBB2C48151D00F68B61 /* Build configuration list for PBXNativeTarget "360ImageImmersiveViewTests" */;
+			buildPhases = (
+				867A9FAC2C48151D00F68B61 /* Sources */,
+				867A9FAD2C48151D00F68B61 /* Frameworks */,
+				867A9FAE2C48151D00F68B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867A9FB22C48151D00F68B61 /* PBXTargetDependency */,
+			);
+			name = 360ImageImmersiveViewTests;
+			productName = 360ImageImmersiveViewTests;
+			productReference = 867A9FB02C48151D00F68B61 /* 360ImageImmersiveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867A9F932C48151C00F68B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					867A9F9A2C48151C00F68B61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					867A9FAF2C48151D00F68B61 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 867A9F9A2C48151C00F68B61;
+					};
+				};
+			};
+			buildConfigurationList = 867A9F962C48151C00F68B61 /* Build configuration list for PBXProject "360ImageImmersiveView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 867A9F922C48151C00F68B61;
+			productRefGroup = 867A9F9C2C48151C00F68B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867A9F9A2C48151C00F68B61 /* 360ImageImmersiveView */,
+				867A9FAF2C48151D00F68B61 /* 360ImageImmersiveViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867A9F992C48151C00F68B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867A9FAA2C48151D00F68B61 /* Preview Assets.xcassets in Resources */,
+				867A9FA72C48151D00F68B61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867A9FAE2C48151D00F68B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867A9F972C48151C00F68B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867A9FA52C48151C00F68B61 /* ContentView.swift in Sources */,
+				867A9FA32C48151C00F68B61 /* _360ImageImmersiveViewApp.swift in Sources */,
+				867A9FC32C481A8000F68B61 /* ImageFromURLImmersiveView.swift in Sources */,
+				867A9FC12C4815C000F68B61 /* ImageImmersiveView.swift in Sources */,
+				867A9FBF2C48159B00F68B61 /* ImageUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867A9FAC2C48151D00F68B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867A9FB52C48151D00F68B61 /* _60ImageImmersiveViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		867A9FB22C48151D00F68B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867A9F9A2C48151C00F68B61 /* 360ImageImmersiveView */;
+			targetProxy = 867A9FB12C48151D00F68B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		867A9FB62C48151D00F68B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		867A9FB72C48151D00F68B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		867A9FB92C48151D00F68B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"360ImageImmersiveView/Preview Content\"";
+				DEVELOPMENT_TEAM = 69P49J92LY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "georgealexiou.-60ImageImmersiveView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		867A9FBA2C48151D00F68B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"360ImageImmersiveView/Preview Content\"";
+				DEVELOPMENT_TEAM = 69P49J92LY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "georgealexiou.-60ImageImmersiveView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		867A9FBC2C48151D00F68B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69P49J92LY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "georgealexiou.-60ImageImmersiveViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360ImageImmersiveView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/360ImageImmersiveView";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		867A9FBD2C48151D00F68B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69P49J92LY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "georgealexiou.-60ImageImmersiveViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360ImageImmersiveView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/360ImageImmersiveView";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867A9F962C48151C00F68B61 /* Build configuration list for PBXProject "360ImageImmersiveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867A9FB62C48151D00F68B61 /* Debug */,
+				867A9FB72C48151D00F68B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867A9FB82C48151D00F68B61 /* Build configuration list for PBXNativeTarget "360ImageImmersiveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867A9FB92C48151D00F68B61 /* Debug */,
+				867A9FBA2C48151D00F68B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867A9FBB2C48151D00F68B61 /* Build configuration list for PBXNativeTarget "360ImageImmersiveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867A9FBC2C48151D00F68B61 /* Debug */,
+				867A9FBD2C48151D00F68B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		867A9FA02C48151C00F68B61 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 867A9F932C48151C00F68B61 /* Project object */;
+}
