@@ -26,11 +26,11 @@ For more detailed information, refer to the [full guide](https://www.notion.so/C
 Open the project in Xcode and click the **Run** button to build and run the application on the Vision Pro simulator or your device.
 
 ### Explore the immersive views:
-The application includes sample 360 images and scenes to demonstrate immersive capabilities.
+The application includes a sampl 360 image stored in the project's assets to demonstrate immersive capabilities.
 
 ## Contact
 
-If you have any questions or project opportunities, feel free to reach out:
+If you have any questions, feel free to reach out:
 
 - Twitter: [@georgealexiou_](https://x.com/georgealexiou_)
 - Email: [george@serendipity.ai](mailto:george@serendipity.ai)
