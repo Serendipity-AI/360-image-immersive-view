@@ -17,7 +17,7 @@ For more detailed information, refer to the [full guide](https://www.notion.so/C
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/Serendipity-AI/360-image-immersive-view.git
-   cd your-repo-name```
+   ```
 2. Open the project in Xcode
 
 ## Usage
