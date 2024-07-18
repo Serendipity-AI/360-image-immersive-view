@@ -7,14 +7,14 @@ For more detailed information, refer to the [full guide](https://www.notion.so/C
 ## Features
 
 - Integration with Vision Pro's 3D capabilities
-- Efficient resource management for 360 image views
-- Easy implementation using SwiftUI and RealityKit
+- Ability to create Immersive Views from 360 images either in your XCode assets or loaded from remote URLs
+- Simple implementation using SwiftUI and RealityKit
 
 ## Installation
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Serendipity-AI/360-image-immersive-view.git
    cd your-repo-name```
 2. Open the project in Xcode
 
@@ -25,10 +25,6 @@ Open the project in Xcode and click the **Run** button to build and run the appl
 
 ### Explore the immersive views:
 The application includes sample 360 images and scenes to demonstrate immersive capabilities.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
