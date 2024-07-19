@@ -1,7 +1,7 @@
 # 360 Image Immersive Views on Vision Pro
 
 This project demonstrates how to create immersive views on visionOS using 360 images with SwiftUI and RealityKit.
-For more detailed information, refer to the [full guide](https://www.notion.so/Creating-Immersive-views-on-visionOS-by-using-360-images-with-SwiftUI-and-RealityKit-afa2aaaa55e144b2a3b49974a075c4e3?pvs=21).
+For more detailed information, refer to the [full guide]](https://medium.com/@social_93988/creating-immersive-views-on-visionos-by-using-360-images-with-swiftui-and-realitykit-by-serendipity-ai-2907cfafb909)
 
 ## Features
 
@@ -35,3 +35,6 @@ If you have any questions, feel free to reach out:
 - Twitter: [@georgealexiou_](https://x.com/georgealexiou_)
 - Email: [george@serendipity.ai](mailto:george@serendipity.ai)
 
+## Acknowledgements
+
+360 images courtesy Blockade Labs (https://www.blockadelabs.com)
